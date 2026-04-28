@@ -39,6 +39,13 @@ function generateName(){
     const dayName = days[dayIndex];
 
     let akanName;
-    if (gender === )
+    if (gender === "male") {
+        akanName = maleNames[dayIndex];
+    } else {
+        akanName = femaleNames[dayIndex];
+    }
+
+    const resultBox = document.getElementById("my-name");
+    resultBox.
     
 }
