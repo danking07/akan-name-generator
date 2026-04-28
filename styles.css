@@ -70,11 +70,13 @@ select {
 
 #result {
   margin: 20px 320px;
-  background-color: midnightblue;
-  color: white;
+ background-color: aliceblue; 
+  color: black;
   text-align: center;
   padding: 80px;
   border-radius: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
 }
 
 #result span {
