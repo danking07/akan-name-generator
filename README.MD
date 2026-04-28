@@ -21,7 +21,7 @@ GITHUB:
 https://github.com/danking07/akan-name-generator
 
 ##Live site
-
+https://danking07.github.io/akan-name-generator/
 
 ##How it works
 
@@ -36,7 +36,7 @@ Click on the Github Url provided below
 https://github.com/danking07/akan-name-generator
 
 then click on the live url below
-
+https://danking07.github.io/akan-name-generator/
 
 ##TECHNOLOGIES USED
 
