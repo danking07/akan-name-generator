@@ -16,9 +16,11 @@ body {
 
 #sec1 {
   border-radius: 8px;
-  margin: 60px;
+  margin: 60px auto;
   max-width: 900px;
   background-color: whitesmoke;
+  padding: 30px;
+  border: 6px solid purple;
 }
 
 .formcard {

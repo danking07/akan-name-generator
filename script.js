@@ -10,7 +10,7 @@ const days = [
 
 const maleNames = [
   "Kwasi",
-  "Kwado",
+  "Kwadwo",
   "Kwabena",
   "Kwaku",
   "Yaw",
