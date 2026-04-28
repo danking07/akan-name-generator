@@ -1,5 +1,5 @@
 body {
-  background-color: gold;
+  background-color: wheat;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
@@ -7,13 +7,14 @@ body {
   color: brown;
 }
 header{
-    background-color: black;
+    background-color: rgb(109, 29, 109);
 }
 #h1 {
-  background-color: black;
+  background-color: rgb(109, 29, 109);
   padding: 40px;
   margin-top: 0%;
   text-align: center;
+  color: white;
 }
 
 #About {
@@ -83,7 +84,7 @@ select {
 
 #navbar{
     display: flex;
-    background-color: black;
+    background-color: rgb(109, 29, 109);
     padding: 30px;
     margin-top: 0%;
 
@@ -96,4 +97,42 @@ nav a{
 }
 .hidden{
     display: none;
+}
+
+#table-section {
+    margin: 20px 60px;
+    text-align: center;
+}
+
+#table-section h2 {
+    margin-bottom: 16px;
+    color: brown;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: purple;
+    color: white;
+}
+
+th {
+    padding: 14px;
+    font-size: 1rem;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0;
 }
