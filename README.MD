@@ -31,3 +31,10 @@ https://danking07.github.io/akan-name-generator/
 2.CSS
 3.JAVASCRIPT
 
+##LICENSE
+
+ALL RIGHTS RESERVED  "DUNCAN"
+© 2026
+
+Feel free to contact the email below if you need assistance
+ danking9397@gmail.com

@@ -138,3 +138,10 @@ td {
 tbody tr:hover {
     background-color: #e0e0e0;
 }
+
+footer{
+    background-color: rgb(109, 29, 109);
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
