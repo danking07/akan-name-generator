@@ -11,9 +11,11 @@ This application takes your birthdate and gender as input and returns your Akan 
 NAME:
 
 DUNCAN NDUHIU WANG'OMBE
+
 EMAIL:
 
 danking9397@gmail.com
+
 GITHUB:
 
 https://github.com/danking07/akan-name-generator
@@ -39,12 +41,17 @@ https://danking07.github.io/akan-name-generator/
 ##TECHNOLOGIES USED
 
 1.HTML
+
 2.CSS
+
 3.JAVASCRIPT
 
 ##LICENSE
 
-ALL RIGHTS RESERVED "DUNCAN"
+ALL RIGHTS RESERVED 
+
+"DUNCAN"
+
 © 2026
 
 Feel free to contact the email below if you need assistance
