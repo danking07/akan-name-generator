@@ -1,78 +1,80 @@
-body{
-    background-color: aquamarine;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 120%;
-    color: brown;
+body {
+  background-color: aquamarine;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: 120%;
+  color: brown;
 }
 
-#h1{
-    background-color: black;
-    padding: 30px;
-    margin-top: 0%;
-    text-align: center;
+#h1 {
+  background-color: black;
+  padding: 30px;
+  margin-top: 0%;
+  text-align: center;
 }
 
-#sec1{
-    border-radius: 8px;
-    margin: 60px;
-    max-width: 900px;
-    background-color:whitesmoke;
+#sec1 {
+  border-radius: 8px;
+  margin: 60px;
+  max-width: 900px;
+  background-color: whitesmoke;
 }
 
-.formcard{
-    background-color:whitesmoke;
-    border-radius: 12px;
-    padding: 40px;
-    margin: 60px;
+.formcard {
+  background-color: whitesmoke;
+  border-radius: 12px;
+  padding: 40px;
+  margin: 60px;
 }
 
-.label{
-    display: block;
-    margin-top: 14px;
-    font-size: 0.9;
-    font-weight: bold;
-    padding: 10px;
+.label {
+  display: block;
+  margin-top: 14px;
+  font-size: 0.9;
+  font-weight: bold;
+  padding: 10px;
 }
 
-input, select{
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-top: 6px;
-    border: 1.5px solid #ccc;
-    border-radius: 8px;
-    font-size: 1rem;
-
+input,
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
 }
 
-.button{
-    margin-top: 20px;
-    width: 100%;
-    padding: 12px;
-    color: white;
-    background-color: purple;
-    border-radius: 8px;
-    cursor: pointer;
+.button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  color: white;
+  background-color: purple;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.button:hover{
-    background-color: blue;
+.button:hover {
+  background-color: blue;
 }
 
-#result{
-    margin: 20px 350px;
-    background-color: midnightblue;
-    color: white;
-    text-align: center;
-    padding: 80px;
-    border-radius: 12px;
+#result {
+  margin: 20px 350px;
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+  padding: 80px;
+  border-radius: 12px;
 }
 
-#result span{
-    display: block;
-    margin: 10px 0;
+#result span {
+  display: block;
+  margin: 10px 0;
 }
 
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }

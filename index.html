@@ -1,56 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>akan-name-generator</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body id="body">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="body">
     <header>
-    <h1 id="h1">Akan Name Generator</h1>
-    <nav>
+      <h1 id="h1">Akan Name Generator</h1>
+      <nav>
         <a href="#About">About</a>
         <a href="#get-name">Get name</a>
         <a href="#Result">Result</a>
-    </nav>
-</header>
-<section id="sec1">
+      </nav>
+    </header>
+    <section id="sec1">
+      <p class="p">
+        The akan name generator is from ghanaian culture where your name is
+        determined by your gender and the day that you were born. The user
+        inputs his or her details such as the birthdate and gender and the
+        application returns his or her akan name
+      </p>
+    </section>
+    <section id="Get name">
+      <div class="formcard">
+        <form>
+          <label class="label">Day (1-31):</label>
+          <input type="number" id="day" placeholder="e.g. 14" />
 
-    <p class="p">
-        The akan name generator is from ghanaian culture where your name is determined by your gender and the day that you were born.
-        
-        The user inputs his or her details such as the birthdate and gender and the application
-        returns his or her akan name
-    </p>
-</section>
-<section id="Get name">
-    <div class="formcard">
-    <form>
-         <label class="label">Day (1-31):</label>
-         <input type="number" id="day" placeholder="e.g. 14" />
+          <label class="label">Month (1-12):</label>
+          <input type="number" id="month" placeholder="e.g. 3" />
 
-         <label class="label">Month (1-12):</label>
-         <input type="number" id="month" placeholder="e.g. 3"/>
+          <label class="label">Year:</label>
+          <input type="number" id="year" placeholder="e.g. 1998" />
 
-         <label class="label">Year:</label>
-         <input type="number" id="year" placeholder="e.g. 1998"/>
-
-         <label class="label">Gender:</label>
-         <select id="gender">
+          <label class="label">Gender:</label>
+          <select id="gender">
             <option value="">-- Select --</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
-         </select>
-    </form>
-    </div>
-      <button type="button" onclick="generateName()" class="button">Find my Akan name</button>
+          </select>
+        </form>
+      </div>
+      <button type="button" onclick="generateName()" class="button">
+        Find my Akan name
+      </button>
 
-<div id="result" class="result hidden"></div>
-</section>
-    
-    
+      <div id="result" class="result hidden"></div>
+    </section>
 
     <script src="script.js" defer></script>
-</body>
+  </body>
 </html>
