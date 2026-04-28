@@ -1,20 +1,22 @@
 body {
-  background-color: aquamarine;
+  background-color: gold;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
   font-size: 120%;
   color: brown;
 }
-
+header{
+    background-color: black;
+}
 #h1 {
   background-color: black;
-  padding: 30px;
+  padding: 40px;
   margin-top: 0%;
   text-align: center;
 }
 
-#sec1 {
+#About {
   border-radius: 8px;
   margin: 60px auto;
   max-width: 900px;
@@ -50,13 +52,15 @@ select {
 }
 
 .button {
-  margin-top: 20px;
-  width: 100%;
-  padding: 12px;
+  margin-top: 5px;
+  width: 70%;
+  padding: 30px;
   color: white;
   background-color: purple;
   border-radius: 8px;
   cursor: pointer;
+  margin-left: 200px;
+  
 }
 
 .button:hover {
@@ -77,6 +81,15 @@ select {
   margin: 10px 0;
 }
 
-.hidden {
-  display: none;
+#navbar{
+    display: flex;
+    background-color: black;
+    padding: 30px;
+    margin-top: 0%;
+
+}
+
+nav a{
+    gap: 40px;
+    margin-left: 300px;
 }

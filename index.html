@@ -9,13 +9,13 @@
   <body id="body">
     <header>
       <h1 id="h1">Akan Name Generator</h1>
-      <nav>
+      <nav id="navbar">
         <a href="#About">About</a>
         <a href="#get-name">Get name</a>
         <a href="#Result">Result</a>
       </nav>
     </header>
-    <section id="sec1">
+    <section id="About">
       <p class="p">
         The akan name generator is from ghanaian culture where your name is
         determined by your gender and the day that you were born. The user
@@ -23,7 +23,7 @@
         application returns his or her akan name
       </p>
     </section>
-    <section id="Get name">
+    <section id="get-name">
       <div class="formcard">
         <form>
           <label class="label">Day (1-31):</label>
@@ -46,9 +46,10 @@
       <button type="button" onclick="generateName()" class="button">
         Find my Akan name
       </button>
-
+ </section>
+ <section id="result">
       <div id="result" class="result hidden"></div>
-    </section>
+   </section>
 
     <script src="script.js" defer></script>
   </body>
