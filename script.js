@@ -19,7 +19,7 @@ function getDayOfWeek(day, month, year) {
     const YY = year % 100;
 
     const part1 = (parseInt(CC / 4) -2 * CC - 1
-    const part2 = (parseInt((45 * YY) / 4)
+    const part2 = (parseInt((5 * YY) / 4)
     const part3 = (parseInt((26 * (month + 1)) / 10)
 
     const h = part1 + part2 + part3 + day
@@ -46,6 +46,9 @@ function generateName(){
     }
 
     const resultBox = document.getElementById("my-name");
-    resultBox.
+    resultBox.innerHTML = "You were born on a " + dayName + "!<span>" + akanName + "</span>Your Akan soul Name";
+    resultBox.classList.remove("hidden");
+
+    resultBox.scrollIntoView({ behavior: "smooth" })
     
 }
