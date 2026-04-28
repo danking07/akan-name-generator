@@ -1,4 +1,4 @@
-#body{
+body{
     background-color: aquamarine;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 120%;
@@ -71,4 +71,8 @@ input, select{
 #result span{
     display: block;
     margin: 10px 0;
+}
+
+.hidden{
+    display: none;
 }

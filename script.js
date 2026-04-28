@@ -1,34 +1,49 @@
-const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
 
-const maleNames  = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+const maleNames = [
+  "Kwasi",
+  "Kwado",
+  "Kwabena",
+  "Kwaku",
+  "Yaw",
+  "Kofi",
+  "Kwame",
+];
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
+    function getDayOfWeek(day, month, year) {
 
-function getDayOfWeek(day, month, year) {
-
-    let month = month
-    let year = year
+    let m = month
+    let y = year
 
 
-    if (month <= 2){
-        month = month + 12;
-        year = year - 1;
+    if (m <= 2){
+        m = m + 12;
+        y = y - 1;
     }
 
-    const CC = parseInt(year / 100);
-    const YY = year % 100;
+    const CC = parseInt(y / 100);
+    const YY = y % 100;
 
-    const part1 = (parseInt(CC / 4) -2 * CC - 1
-    const part2 = (parseInt((5 * YY) / 4)
-    const part3 = (parseInt((26 * (month + 1)) / 10)
+    const part1 = parseInt(CC / 4) -2 * CC - 1;
+    const part2 = parseInt((5 * YY) / 4);
+    const part3 = parseInt((26 * (m + 1)) / 10);
 
     const h = part1 + part2 + part3 + day
 
     const dayIndex = ((h % 7) + 7) % 7;
-
+    
     return dayIndex;
-
 }
+
 function generateName(){
     const day  = +document.getElementById("day").value;
     const month  = +document.getElementById("month").value;
@@ -45,7 +60,7 @@ function generateName(){
         akanName = femaleNames[dayIndex];
     }
 
-    const resultBox = document.getElementById("my-name");
+    const resultBox = document.getElementById("result");
     resultBox.innerHTML = "You were born on a " + dayName + "!<span>" + akanName + "</span>Your Akan soul Name";
     resultBox.classList.remove("hidden");
 
