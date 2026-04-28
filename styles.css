@@ -58,3 +58,17 @@ input, select{
 .button:hover{
     background-color: blue;
 }
+
+#result{
+    margin: 24px;
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 28px;
+    border-radius: 12px;
+}
+
+#result span{
+    display: block;
+    margin: 10px 0;
+}
