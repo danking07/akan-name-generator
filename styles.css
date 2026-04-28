@@ -60,11 +60,11 @@ input, select{
 }
 
 #result{
-    margin: 24px;
+    margin: 20px 350px;
     background-color: midnightblue;
     color: white;
     text-align: center;
-    padding: 28px;
+    padding: 80px;
     border-radius: 12px;
 }
 
