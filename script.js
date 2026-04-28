@@ -1,3 +1,4 @@
+//The reason we use const is because the days wont change at all
 const days = [
   "Sunday",
   "Monday",
@@ -18,16 +19,16 @@ const maleNames = [
   "Kwame",
 ];
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
+//We change month and year into m and y and use let since we might need to change later
 function getDayOfWeek(day, month, year) {
   let m = month;
   let y = year;
-
+  //we are putting less of 2 since it does not accept jan and feb thus counting them as 13 and 14 of the previous year
   if (m <= 2) {
     m = m + 12;
     y = y - 1;
   }
-
+//spliting the number to two like eg 19 and 98 for example 19/divided to 100 people 98% shared to the rest
   const CC = parseInt(y / 100);
   const YY = y % 100;
 
@@ -36,6 +37,7 @@ function getDayOfWeek(day, month, year) {
   const part3 = parseInt((26 * (m + 1)) / 10);
 
   const h = part1 + part2 + part3 + day;
+  //after the calculation the number you get you divide by 7 to get the day
 
   const dayIndex = ((h % 7) + 7) % 7;
 
@@ -69,3 +71,6 @@ function generateName() {
 
   resultBox.scrollIntoView({ behavior: "smooth" });
 }
+
+const btn = document.getElementById("btn");
+btn.addEventListener("click", generateName);
