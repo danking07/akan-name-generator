@@ -44,11 +44,36 @@ function getDayOfWeek(day, month, year) {
   return dayIndex;
 }
 
+
 function generateName() {
   const day = +document.getElementById("day").value;
   const month = +document.getElementById("month").value;
   const year = +document.getElementById("year").value;
   const gender = document.getElementById("gender").value;
+
+  if (!day || !month || !year) {
+    alert("Please fill in the day, month and year.");
+    return;
+  }
+
+  if (day < 1 || day > 31) {
+    alert("Day must be between 1 and 31.");
+    return;
+  }
+
+  if (month < 1 || month > 12) {
+    alert("Month must be between 1 and 12.");
+    return;
+  }
+  if (year < 1900 || year > 2097) {
+    alert("Year must be between 1900 and 2097.");
+    return;
+  }
+
+  if (gender === "") {
+    alert("Please select a gender.");
+    return;
+  }
 
   const dayIndex = getDayOfWeek(day, month, year);
   const dayName = days[dayIndex];

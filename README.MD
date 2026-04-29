@@ -1,12 +1,12 @@
-#AKAN NAME GENERATOR
+# AKAN NAME GENERATOR
 
-##DESCRIPTION
+## DESCRIPTION
 
 Akan Name Generator is a web application based on Ghanaian culture.
 In Akan culture, every child is given a soul name based on the day of the week they were born.
 This application takes your birthdate and gender as input and returns your Akan soul name.
 
-##CREATOR
+## CREATOR
 
 NAME:
 
@@ -20,17 +20,17 @@ GITHUB:
 
 https://github.com/danking07/akan-name-generator
 
-##Live site
+## Live site
 https://danking07.github.io/akan-name-generator/
 
-##How it works
+## How it works
 
 1. Enter your birth day, month and year
 2. Select your gender
 3. Click the "Find My Akan Name" button
 4. Your Akan name will appear on the screen
 
-##HOW TO RUN
+## OW TO RUN
 
 Click on the Github Url provided below
 https://github.com/danking07/akan-name-generator
@@ -38,7 +38,7 @@ https://github.com/danking07/akan-name-generator
 then click on the live url below
 https://danking07.github.io/akan-name-generator/
 
-##TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
 1.HTML
 
@@ -46,7 +46,7 @@ https://danking07.github.io/akan-name-generator/
 
 3.JAVASCRIPT
 
-##LICENSE
+## LICENSE
 
 ALL RIGHTS RESERVED 
 
